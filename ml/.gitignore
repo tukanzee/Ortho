@@ -1,0 +1,10 @@
+.venv/
+data/raw_ct/*
+data/generated/*
+outputs/*
+!data/README.md
+!outputs/.gitkeep
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

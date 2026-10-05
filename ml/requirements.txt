@@ -1,0 +1,17 @@
+torch
+torchvision
+diffdrr
+numpy
+scipy
+pandas
+matplotlib
+pillow
+scikit-image
+scikit-learn
+nibabel
+pydicom
+SimpleITK
+PyYAML
+tqdm
+tensorboard
+pytest

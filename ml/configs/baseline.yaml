@@ -1,0 +1,26 @@
+dataset:
+  num_cases: 10000
+  image_size: 256
+
+fracture:
+  dorsal_tilt_deg:
+    min: 5
+    max: 35
+
+  dorsal_translation_mm:
+    min: 0
+    max: 10
+
+  radial_shortening_mm:
+    min: 0
+    max: 10
+
+views:
+  - AP
+  - lateral
+
+model:
+  outputs:
+    - dorsal_tilt_deg
+    - dorsal_translation_mm
+    - radial_shortening_mm

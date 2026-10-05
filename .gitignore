@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+ml/.venv/
+ml/data/raw_ct/*
+ml/data/generated/*
+ml/outputs/*
+!ml/data/README.md
+!ml/outputs/.gitkeep
+
+# Local environments / generated data
+ml/.venv/
+ml/data/raw_ct/*
+ml/data/generated/*
+ml/outputs/*
+web/node_modules/
+web/dist/
+.DS_Store
+__pycache__/
+*.pyc
