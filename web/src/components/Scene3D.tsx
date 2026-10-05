@@ -52,13 +52,9 @@ function ArcballController({
       makeDefault
       enabled={enabled}
       enablePan={false}
-      enableFocus={false}
-      enableGizmos={false}
       cursorZoom
       minDistance={0.12}
       maxDistance={5}
-      rotateSpeed={1}
-      radiusFactor={0.72}
     />
   )
 }

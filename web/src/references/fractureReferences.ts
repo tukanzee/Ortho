@@ -1,3 +1,4 @@
+import type { FractureType } from '../fracture/fractureConfig'
 export type XrayCrop = 'left' | 'right'
 
 export type XrayReferenceImage = {
@@ -20,7 +21,7 @@ export type FractureReference = {
 const CARUSO_FIGURE_1 =
   'https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13018-019-1530-1/MediaObjects/13018_2019_1530_Fig1_HTML.png'
 
-export const fractureReferences = {
+export const fractureReferences: Record<FractureType, FractureReference> = {
   normal: {},
   colles: {
     ap: {
@@ -41,4 +42,4 @@ export const fractureReferences = {
     },
   },
   smith: {},
-} satisfies Record<'normal' | 'colles' | 'smith', FractureReference>
+}
